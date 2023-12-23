@@ -47,6 +47,88 @@
           "deprecated": false
         }
       },
+      "legacy <dashed-ident> syntax": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomStateSet",
+          "spec_url": "https://wicg.github.io/custom-state-pseudo-class",
+          "support": {
+            "chrome": {
+              "version_added": "90"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      ":state() syntax": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/add",
+          "spec_url": "https://wicg.github.io/custom-state-pseudo-class/#dom-customstateset-add",
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "121",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.element.customstateset.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "preview",
+              "flags": [
+                {
+                  "name": "CustomStateSetEnabled",
+                  "value_to_set": "true",
+                  "type": "runtime_flag"
+                }
+              ]
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "add": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/add",
